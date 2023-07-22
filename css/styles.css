@@ -67,9 +67,14 @@
     margin-top: 100px;
 
 }
+ol,
+ul {
+  padding-left: 0px;
+}
 .redessociales li {
     display: inline-block;
     margin-left: 10px;
+    left: 0;
 }
 .redessociales li i {
     font-size: 30px;
@@ -79,8 +84,9 @@
 
 }
 .footer-contenedor{
-   padding: 70px 105px 35px 105px;
    color: #EFF5F5;
+   padding-top: 40px;
+   padding-bottom: 40px;
 }
 
 /* contacto */
@@ -117,4 +123,5 @@
     background-color: #00425A;
     border-radius: 20px;  
 }
+
 
