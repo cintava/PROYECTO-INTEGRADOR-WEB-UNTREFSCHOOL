@@ -74,3 +74,40 @@
 
 
 
+
+#seccion_formulario {
+    background-color: #d2f5ff;
+    padding-top: 14vh;
+    padding-bottom: 14vh;
+}
+#seccion_formulario input:not(textarea) {
+    height: 40px;
+}
+#seccion_formulario .boton {
+    padding-top: 20px;
+}
+#seccion_formulario label {
+    color: #00BBF0;
+    font-weight: bold;
+}
+/* #seccion_formulario .contacto{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center; 
+} */
+#seccion_formulario .logo img{
+        width: 250px;
+        margin-top: 10vh;  
+        margin-bottom: 15vh;        
+}
+#seccion_formulario .form-control{
+    border-radius: 20px;     
+}
+#seccion_formulario button.btn {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
