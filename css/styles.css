@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* tipografias */
+.texto{
+    font-family: 'Belanosima', sans-serif;
+    color: #00425A;
+    
+}
+.titulos{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #181823;
+}
+
+/* header */
+
+.navbar {
+    background-color: #1F8A70;
+    color: #EFF5F5;
+}
+.nav-link,
+.navbar-nav .nav-link.active {
+    font-family: 'Poppins', sans-serif;
+    color: #EFF5F5;
+}
+/* .navbar-nav .nav-link.active {
+    font-family: 'Poppins', sans-serif;
+    color: #EFF5F5;
+} */
+.nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+    color: #FC7300 ;
+}
+/* .navbar-nav .nav-link.active:hover{
+    color: #FC7300 ;
+} */
+
+
+/* quienes somos */
+
+.card-group{
+    margin: 6vh 5vw 6vh 5vw;
+    gap: 1vw;
+
+}
+.propuesta-educativa .card {
+    box-shadow: 0 0 10px rgba(250, 112, 0, 0.6);
+}
+
+
+.redessociales {
+    margin-top: 100px;
+    /* margin-left: 1%;  */
+}
+.redessociales li {
+    display: inline-block;
+    /* margin-left: 10px; */
+}
+.redessociales li i {
+    font-size: 30px;
+}
+.footer{
+    background-color:#00425A ;
+
+}
+.footer-contenedor{
+   padding: 70px 105px 35px 105px;
+   color: #EFF5F5;
+}
+
+
+
